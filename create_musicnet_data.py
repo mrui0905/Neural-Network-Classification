@@ -3,10 +3,10 @@ import csv, os
 # This file takes the raw data accessed from Kaggle (https://www.kaggle.com/datasets/imsparsh/musicnet-dataset) and converts it into a csv file usable
 # for machine learning. 
 
-INSTRUMENT = 'Solo Piano'
+INSTRUMENT = 'Solo Piano' # to sort by muscial instrument
 DIRECTORY = 'musicnet/musicnet/train_labels'
-BEATS_PER_MEASURE = 4
-MAX_PER_COMPOSER = 10000
+BEATS_PER_MEASURE = 4 # to account for length of individual notes
+MAX_PER_COMPOSER = 10000 # used to cap number of works represented per composer in the dataset
 
 # Create composer and instrument dictionary
 composers = {}
