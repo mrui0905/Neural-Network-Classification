@@ -13,3 +13,6 @@ the substantially smaller musical datset (2-3000) values, compared to the MNIST 
 
 While none of the raw data is inlcuded in this Github, the four csv files directly used by the neural network are included as well as the code used to create the three musical csv files.
 The original data for the musical datasets are linked in the respective .py files. The MNIST dataset was already available here. (https://www.kaggle.com/datasets/hojjatk/mnist-dataset)
+
+
+start on 11, https://www.midiworld.com/search/10/?q=pop
