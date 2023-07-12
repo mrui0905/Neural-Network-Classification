@@ -2,8 +2,8 @@ import pandas as pd
 import py_midicsv as pm
 import os
 
-source =  'midi'
-dest = 'csv'
+source =  'musical_keys/midi'
+dest = 'musical_keys/csv'
 
 for file in os.listdir(source):
     path = os.path.join(source, file)

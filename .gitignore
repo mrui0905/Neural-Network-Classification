@@ -1,4 +1,3 @@
-midi
-csv
-.ipynb_checkpoints
-test.csv
+musical_keys/midi
+musical_keys/csv
+musical_keys/clean_data
