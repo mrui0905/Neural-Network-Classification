@@ -3,3 +3,5 @@ musical_keys/csv
 musical_keys/clean_data
 
 texts
+
+.DS_Store
