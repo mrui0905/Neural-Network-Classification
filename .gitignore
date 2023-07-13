@@ -2,6 +2,15 @@ musical_keys/midi
 musical_keys/csv
 musical_keys/clean_data
 
-texts
-
 .DS_Store
+
+musical_keys/midi
+musical_keys/csv
+musical_keys/clean_data
+musical_keys/__pycache__
+
+musical_composers/composer_data
+
+digit_classification/digit_data
+
+texts/text_data
