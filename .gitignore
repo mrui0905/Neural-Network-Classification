@@ -11,6 +11,6 @@ musical_keys/__pycache__
 
 musical_composers/composer_data
 
-digit_classification/digit_data
+raw_classification/digit_data
 
 texts/text_data

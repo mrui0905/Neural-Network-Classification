@@ -2,6 +2,7 @@ import pandas as pd
 import py_midicsv as pm
 import os
 
+# Converts all midi files into csv representation
 def convert_data():
     source =  'midi'
     dest = 'csv'

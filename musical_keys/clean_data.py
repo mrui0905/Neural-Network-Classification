@@ -1,6 +1,7 @@
 import pandas as pd
 import os
 
+# Extracts the musical key and notes from the converted csv file.
 def extract(file, key_mapping):
     df = pd.read_csv(file)
     df.columns = [i for i in range(len(df.columns))]
@@ -13,6 +14,7 @@ def extract(file, key_mapping):
     key_sig = key_mapping[b][a]
     return [key_sig] + notes[4].tolist()
 
+# Creates a csv containg the notes/musical key of all our midi files
 def clean():
 
     key_mapping = {'major':{
